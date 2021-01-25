@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b127de-2c32-495d-9fcb-af84cef04529" name="Default Changelist" comment="" />
+    <list default="true" id="24b127de-2c32-495d-9fcb-af84cef04529" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +17,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveTo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1nGYNhItw6T9SXWOHLGf3EgkVQV" />
   <component name="ProjectViewState">
@@ -51,6 +68,8 @@
       <updated>1611017860513</updated>
       <workItem from="1611017886898" duration="27000" />
       <workItem from="1611040270448" duration="501000" />
+      <workItem from="1611561225049" duration="447000" />
+      <workItem from="1611561926303" duration="1012000" />
     </task>
     <servers />
   </component>
