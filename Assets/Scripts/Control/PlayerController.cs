@@ -34,11 +34,19 @@ namespace RPG.Control
             _mover = GetComponent<Mover>();
             _fighter = GetComponent<Fighter>();
             _health = GetComponent<Health>();
+            
+            
         }
 
         private void Update()
         {
-            if (IntactWithUI()) return;
+        
+            
+            if (IntactWithUI())
+            {
+                print("ui");
+                return;
+            }
             if (_health.IsDead())
             {
                 SetCursor(CursorType.None);
@@ -47,7 +55,6 @@ namespace RPG.Control
 
             if (InteractWithComponent()) return;
             if (InteractWithMovement()) return;
-
             SetCursor(CursorType.None);
             //print("Nothing to do.");
         }
@@ -122,7 +129,6 @@ namespace RPG.Control
             RaycastHit hit;
             bool hasHit = Physics.Raycast(ray, out hit);
 
-            if (!hasHit) return false;
             NavMeshHit navMeshHit;
             bool hasCastToNavMesh = NavMesh.SamplePosition
                 (hit.point, out navMeshHit, _maxNavMeshProjectionDistance, NavMesh.AllAreas);
