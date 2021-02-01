@@ -3648,6 +3648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6450ae16222584ea88270b92c5f9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _postProcessVolume: {fileID: 328701761}
 --- !u!114 &1154037779 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2775448662975132494, guid: 55113a180bd282e47971cfb235c59af7,
@@ -3716,7 +3717,7 @@ PrefabInstance:
     - target: {fileID: 6119906425276263520, guid: 64bd96da9cd464b4ab35f384dd80e3d4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.942245
+      value: 32.95
       objectReference: {fileID: 0}
     - target: {fileID: 6119906425276263520, guid: 64bd96da9cd464b4ab35f384dd80e3d4,
         type: 3}
@@ -3726,7 +3727,7 @@ PrefabInstance:
     - target: {fileID: 6119906425276263520, guid: 64bd96da9cd464b4ab35f384dd80e3d4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.966698
+      value: 24.42
       objectReference: {fileID: 0}
     - target: {fileID: 6119906425276263520, guid: 64bd96da9cd464b4ab35f384dd80e3d4,
         type: 3}
