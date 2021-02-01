@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24b127de-2c32-495d-9fcb-af84cef04529" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG-Clean/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/rpgpp_lt_scene_1.1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
       <workItem from="1611561926303" duration="1012000" />
       <workItem from="1611620345993" duration="920000" />
       <workItem from="1611621485212" duration="279000" />
+      <workItem from="1611650290815" duration="935000" />
     </task>
     <servers />
   </component>

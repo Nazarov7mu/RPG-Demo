@@ -57,6 +57,7 @@ namespace RPG.Control
             if (InteractWithMovement()) return;
             SetCursor(CursorType.None);
             //print("Nothing to do.");
+            
         }
 
         private bool InteractWithComponent()
@@ -109,6 +110,7 @@ namespace RPG.Control
             Vector3 target;
             bool hasHit = RaycastNavMesh(out target);
 
+            
             if (hasHit)
             {
                 if (!_mover.CanMoveTo(target)) return false;
@@ -133,6 +135,7 @@ namespace RPG.Control
             bool hasCastToNavMesh = NavMesh.SamplePosition
                 (hit.point, out navMeshHit, _maxNavMeshProjectionDistance, NavMesh.AllAreas);
 
+            print("imhere"+hasCastToNavMesh);
             if (!hasCastToNavMesh) return false;
 
             target = navMeshHit.position;
